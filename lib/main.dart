@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:uber_clone/states/app_state.dart';
 import 'screens/home.dart';
 
+// Updated: Enhanced Uber Clone application
 void main() {
   return runApp(MultiProvider(providers: [
       ChangeNotifierProvider.value(value: AppState(),)
